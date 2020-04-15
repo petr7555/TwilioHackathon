@@ -1,0 +1,7 @@
+{
+  "name": "TwilioHackathon",
+  "description": "Node.js app using Express 4",
+  "repository": "https://github.com/petr7555/TwilioHackathon",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
