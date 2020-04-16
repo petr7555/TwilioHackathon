@@ -4,6 +4,8 @@ A chat bot that connects people who submit confessions with people who answer th
 
 See [post on DEV]().
 
+<img src="img/img1.jpg" alt="making a confession" style="zoom:25%;" />   <img src="img/img2.jpg" alt="reacting to confession" style="zoom:25%;" />
+
 ## Deploying to Heroku
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
