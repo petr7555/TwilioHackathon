@@ -4,7 +4,7 @@ A chat bot that connects people who submit confessions with people who answer th
 
 See [post on DEV](https://dev.to/petr7555/twiliohackathon-autopilot-node-js-postgresql-3p09).
 
-![making a confession](img/img_1.jpg)![reacting to confession](img/img_2.jpg)
+![making a confession](img/img_submit.jpg)![reacting to confession](img/img_react.jpg)
 
 ## Deploying to Heroku
 
