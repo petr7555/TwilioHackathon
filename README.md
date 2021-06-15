@@ -12,7 +12,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 
 You need an underlying Twilio Autopilot that uses endpoints in `index.js`.
 
-After integrating the Autopilot with WhatsApp, set SENDER variable.
+After integrating the Autopilot with WhatsApp, set `SENDER` variable.
 
 You need to [specify environment variables](https://devcenter.heroku.com/articles/config-vars):
 
