@@ -2,32 +2,23 @@
 
 A chat bot that connects people who submit confessions with people who answer them.
 
-See [post on DEV](https://dev.to/petr7555/twiliohackathon-autopilot-node-js-postgresql-3p09).
+See the [post on DEV](https://dev.to/petr7555/twiliohackathon-autopilot-node-js-postgresql-3p09).
+
+PostgreSQL runs on [ElephantSQL](https://www.elephantsql.com/).
+Node server runs on [render](https://twilio-hackathon.onrender.com/).
 
 ![making a confession](img/img_submit_1.jpg)   ![reacting to confession](img/img_react_1.jpg)   ![reacting to confession](img/img_submit_2.jpg)
 
-## Deploying to Heroku
+## Deployment
+- You need an underlying Twilio Autopilot that uses endpoints in `index.js`.
+- After integrating the Autopilot with WhatsApp, set `SENDER` environment variable.
+- Create a PostgreSQL database and set `DATABASE_URL` environment variable.
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-You need an underlying Twilio Autopilot that uses endpoints in `index.js`.
-
-After integrating the Autopilot with WhatsApp, set `SENDER` variable.
-
-You need to [specify environment variables](https://devcenter.heroku.com/articles/config-vars):
+Overall, you need to specify the following environment variables:
 
 ```
 TWILIO_ACCOUNT_SID=************************
 TWILIO_AUTH_TOKEN=*************************
 SENDER=whatsapp:+123456789
-```
-
-```sh
-$ git clone https://github.com/petr7555/TwilioHackathon.git # or clone your own fork
-$ cd TwilioHackathon
-$ npm install
-$ heroku login
-$ heroku create
-$ git push heroku master
-$ heroku open
+DATABASE_URL=postgres://**********
 ```
