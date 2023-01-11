@@ -11,6 +11,7 @@ Node server runs on [render](https://twilio-hackathon.onrender.com/).
 
 ## Deployment
 - You need an underlying Twilio Autopilot that uses endpoints in `index.js`.
+  - *Support for Autopilot will be discontinued on February 25, 2023, and the product will no longer be accessible starting August 25, 2023.*
 - After integrating the Autopilot with WhatsApp, set `SENDER` environment variable.
 - Create a PostgreSQL database and set `DATABASE_URL` environment variable.
 
