@@ -4,7 +4,7 @@ A chat bot that connects people who submit confessions with people who answer th
 
 See the [post on DEV](https://dev.to/petr7555/twiliohackathon-autopilot-node-js-postgresql-3p09).
 
-PostgreSQL runs on [ElephantSQL](https://www.elephantsql.com/).
+PostgreSQL runs on [alwaysdata](https://www.alwaysdata.com/en/).
 Node server runs on [render](https://twilio-hackathon.onrender.com/).
 
 ![making a confession](img/img_submit_1.jpg)   ![reacting to confession](img/img_react_1.jpg)   ![reacting to confession](img/img_submit_2.jpg)
